@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Settings and statistics live in a single Preferences DataStore file; back it up and transfer it. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="file" path="datastore/path_builder.preferences_pb" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="file" path="datastore/path_builder.preferences_pb" />
+    </device-transfer>
+</data-extraction-rules>
